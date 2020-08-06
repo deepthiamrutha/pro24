@@ -7,8 +7,7 @@ constructor(x,y) {
         density:1.2
     }
     this.body = Bodies.circle(x, y,70,options);
-    this.height = 50;
-    this.width = 50;
+    
 
     World.add(world, this.body);
 }
@@ -19,7 +18,7 @@ var pos = this.body.position;
       stroke("black");
       fill("lightBlue");
       ellipseMode(CENTER);
-      ellipse(0,0,this.width,this.height);
+      ellipse(0,0,30,30);
       pop();
 }
 }

@@ -4,10 +4,7 @@ const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 
-function preload()
-{
-	
-}
+
 
 function setup() {
 	createCanvas(800, 700);
